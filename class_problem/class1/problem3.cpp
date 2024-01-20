@@ -12,10 +12,6 @@ int avg()
     for (int i = 0; i < 10; i++)
     {
         cin >> numbers[i];
-    }
-
-    for (int i = 0; i < 10; i++)
-    {
         sum = sum + numbers[i];
     }
 

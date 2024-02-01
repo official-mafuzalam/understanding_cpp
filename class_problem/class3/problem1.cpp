@@ -16,12 +16,16 @@ public:
 
     void show()
     {
-        cout << "Area is: " << 3.1416 * (radius * radius);
+        cout << "Area is: " << 3.1416 * (radius * radius)<<"\n";
     }
 };
 
 int main()
 {
+    Ball football(38), tennisball;
+
+    football.show();
+    tennisball.show();
 
     return 0;
 }

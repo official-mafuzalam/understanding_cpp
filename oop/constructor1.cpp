@@ -12,6 +12,7 @@ public:
     Car(int i, string n);
 };
 
+// Constructor definition outside the class
 Car::Car(int i, string n)
 {
     id = i;

@@ -45,11 +45,11 @@ void compare(Rect1 rt1, Rect2 rt2)
 {
     if (rt1.hight * rt1.width > rt2.hight * rt2.width)
     {
-        cout << "First rectengle is geter than 2nd. \n";
+        cout << "First rectangle is getter than 2nd. \n";
     }
     else if (rt1.hight * rt1.width < rt2.hight * rt2.width)
     {
-        cout << "2nd rectengle is geter than 1st. \n";
+        cout << "2nd rectangle is getter than 1st. \n";
     }
     else
     {

@@ -3,7 +3,6 @@ using namespace std;
 
 class father
 {
-private:
     string name;
     int age;
 
@@ -15,14 +14,13 @@ public:
     };
     void show()
     {
-        cout << "Name: " << name << endl;
-        cout << "Age: " << age << endl;
+        cout << "Father Name: " << name << endl;
+        cout << "Father Age: " << age << endl;
     }
 };
 
 class son : public father
 {
-private:
     string name1;
     int age1;
 
@@ -43,7 +41,7 @@ public:
 
 int main()
 {
-    son ob("Mafuz", 60, "Laden", 25);
+    son ob("Titu Mir", 60, "Mafuz", 25);
     ob.show1();
     return 0;
 }
